@@ -11,11 +11,11 @@
 }
 
 .header__top-nav-toggle {
-    background-color: $green;
+    display: block!important;
     width: 56px;
     height: 39px;
+    background-color: $green;
     line-height: 39px;
-    display: block!important;
 }
 
 .header__bottom-slider-controls {

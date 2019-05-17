@@ -7,8 +7,8 @@
 
 .contact {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .contact__top {
@@ -21,37 +21,37 @@
 }
 
 .contact__form {
-    margin-top: 90px;
     max-width: 945px;
     margin: 90px auto 0;
+    margin-top: 90px;
 }
 
 .contact__form-input {
     width: 100%;
-    margin-top: 15px;
-    resize: none;
     height: 45px;
+    margin-top: 15px;
     padding-left: 15px;
     font-size: 14px;
+    resize: none;
 }
 
 .contact__form-top {
+
     input {
-        margin-top: 0;
         max-width: 49%;
-        
+        margin-top: 0;
     }
 }
 
 .contact__form-input--textarea {
-    font-family: 'Raleway', sans-serif;
-    padding-top: 15px;
     height: 170px;
+    padding-top: 15px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .btn--submit {
     width: 160px;
     height: 42px;
-    line-height: 42px;
     margin-top: 15px;
+    line-height: 42px;
 }

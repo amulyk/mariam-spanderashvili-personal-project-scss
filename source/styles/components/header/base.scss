@@ -2,17 +2,24 @@
 
 .header__top {
     padding: 25px 0;
-    background-color: #000;
+    background-color: #000000;
 }
 
 .header__top-nav-el {
-    font-size: 14px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    margin-top: -3px;
+    margin-right: -1px;
+    margin-bottom: 9px;
+    margin-left: 1px;
     padding: 0 20px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+
 
     &:first-child {
+        margin-top: 0;
+        margin-right: -18px;
         padding-left: 0;
     }
 
@@ -28,7 +35,7 @@
 .header__bottom {
     height: 760px;
     background-color: $dark-gray;
-    
+
     .container {
         height: 100%;
     }
@@ -48,35 +55,78 @@
 
 .header__bottom-slider-overlay {
     top: 50%;
-    left: 0;
     right: 0;
+    left: 0;
     transform: translateY(-50%);
 }
 
 .header__bottom-subtitle {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
     font-size: 62px;
     font-weight: 200;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
 }
 
 .header__bottom-title {
-    font-size: 72px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     margin-top: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
 }
 
 .header__bottom-text {
     margin-top: 25px;
-    font-weight: 300;
-    color: #fff;
+    color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .btn--see-more {
     margin-top: 42px;
+}
+
+
+.eightp {
+    margin-right: 7px;
+}
+
+.seventhp{
+    margin-right: -6px;
+}
+
+.sixthp{
+    margin-right: -6px;
+}
+
+.fivethp{
+    margin-right: -4px;
+
+}
+
+.fourthp{
+    margin-left: -4px;
+}
+.thirdp{
+    margin-right: -1px;
+}
+
+.secondp{
+        margin-right: -5px!important;
+}
+
+.firstp{
+    
+        margin-right: -5px!important;
+}
+
+.firsth{
+    margin-right: -17px;
+    margin-top: -9px;
+}
+
+.secondh{
+    margin-right:-10px;
 }

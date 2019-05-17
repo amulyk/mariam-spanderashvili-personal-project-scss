@@ -7,11 +7,11 @@
 }
 
 .header__top-nav-toggle {
-    background-color: $green;
-    width: 56px;
-    height: 39px;
-    line-height: 39px;
     display: block!important;
+    width: 56px;
+    height: 39px;   
+    background-color: $green;
+    line-height: 39px;
 }
 
 .header__bottom-slider-controls {
@@ -27,8 +27,8 @@
 }
 
 .header__bottom-text {
-    font-size: 9px;
     max-width: 265px;
+    margin-right: auto;
     margin-left: auto;
-    margin-right: auto; 
+    font-size: 9px;
 }

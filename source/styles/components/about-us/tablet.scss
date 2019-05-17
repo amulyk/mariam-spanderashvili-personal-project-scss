@@ -1,8 +1,8 @@
 .about-us {
+    color: #525252;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    color: #525252;
 
     .container {
         display: none;
@@ -10,8 +10,8 @@
 }
 
 .about-us__image-holder {
-    background-color: #000;
     height: 420px;
+    background-color: #000000;
 }
 
 .container--resp {
@@ -42,19 +42,19 @@
 
     &::before {
         content: '';
+        display: inline-block;
         width: 16px;
         height: 16px;
-        padding-right: 6px;
         margin-right: 15px;
-        display: inline-block;
-        background: url('../../../images/header/Check\ Icon.png') no-repeat center;
+        padding-right: 6px;
+        background: url(../../../images/header/CheckIcon.png) no-repeat center;
     }
 }
 
 .btn--read-more {
-    margin-top: 45px;
     width: 138px;
     height: 42px;
+    margin-top: 45px;
     line-height: 42px;
     text-align: center;
 }
