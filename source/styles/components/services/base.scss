@@ -1,0 +1,30 @@
+.services {
+    background-color: $dark-gray;
+    padding: 140px 0;
+}
+
+.section__title--services {
+
+    &::after {
+        background-color: #222222;
+        background-image: url('../../../images/services/services.png');
+
+    }
+}
+
+.services__item-desc-title {
+    color: $green;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.services__item-desc-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    max-width: 295px;
+}

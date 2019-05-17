@@ -1,2 +1,15 @@
 @import 'media-queries';
+@import 'components/header/base.scss';
 @import 'components/header/index.scss';
+@import 'components/about-us/base.scss';
+@import 'components/about-us/index.scss';
+@import 'components/services/base.scss';
+@import 'components/services/index.scss';
+@import 'components/contact/base.scss';
+@import 'components/contact/index.scss';
+@import 'components/portfolio/base.scss';
+@import 'components/portfolio/index.scss';
+@import 'components/footer/base.scss';
+@import 'components/footer/index.scss';
+@import 'global/global.scss';
+@import 'global/reset.scss';

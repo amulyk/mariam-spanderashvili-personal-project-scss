@@ -1,0 +1,20 @@
+.portfolio__top, .portfolio__bottom {
+    display: none !important;
+}
+
+.container--resp {
+    display: block!important;
+}
+
+.portfolio__item {
+    width: 100%;
+    height: 160px;
+
+    &:nth-child(5) {
+        display: none;
+    }
+
+    &:nth-child(6) {
+        display: none;
+    }
+}

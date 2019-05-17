@@ -1,0 +1,23 @@
+.services {
+    text-align: center!important;
+    background-color: #000;
+    
+    .container {
+        display: block;
+    }
+}
+
+.services__item {
+    width: 100%;
+}
+
+.services__item-desc-text {
+    margin: 0 auto 40px;
+}
+
+.section__title--services {
+
+    &::after {
+        background-color: #000;
+    }
+}

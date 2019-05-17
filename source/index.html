@@ -4,10 +4,571 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Parry</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Raleway:200,200i,300,400,500,600,600i,700,800,800i,900,900i|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <div class="header"></div>
+    <header class="header">
+        <div class="header__top">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a href="#" class="d-block logo">
+                    <img src="images/header/header-logo.png" alt="logo">
+                </a>
+                <nav class="header__top-nav">
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        home
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        about
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        services
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        portfolio
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        testimonals
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        team
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        blog
+                    </a>
+                    <a href="#" class="d-inline-block header__top-nav-el">
+                        contact
+                    </a>
+                </nav>
+                <a href="#" class="header__top-nav-toggle d-none text-center">
+                    <img src="images/header/header-nav-toggle.png" class="header__top-nav-toggle-image" alt="toggle">
+                </a>
+            </div>
+        </div>
+        <div class="header__bottom position-relative">
+            <div class="container text-center position-relative">
+                <div class="header__bottom-slider-overlay position-absolute">
+                    <h2 class="header__bottom-subtitle">
+                        walk with parry
+                    </h2>
+                    <h1 class="header__bottom-title">
+                        You Will Love It
+                    </h1>
+                    <p class="header__bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget faucibus</p>
+                    <button class="btn btn--border btn--see-more">
+                        <span>see more</span>
+                    </button>
+                </div>
+            </div>
+            <a href="#" class="d-block position-absolute header__bottom-slider-controls header__bottom-slider-controls--prev">
+                <img src="images/header/arrow-left.png" alt="previous">
+            </a>
+            <a href="#" class="d-block position-absolute header__bottom-slider-controls header__bottom-slider-controls--next">
+                <img src="images/header/arrow-right.png" alt="next">
+            </a>
+        </div>
+    </header>
+    <main class="content">
+        <section class="section about-us text-center">
+            <h3 class="section__title section__title--about-us">
+                who <span class="section__title--highlight">we are</span>
+            </h3>
+            <div class="container text-left d-flex justify-content-between">
+                <div class="about-us__main-image">
+                    <img src="images/about-us/Image.png" alt="pc">
+                </div>
+                <div class="about-us__desc">
+                    <h4 class="section__title section__title--about-us__desc">
+                        some words about us
+                    </h4>
+                    <p class="about-us__desc-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. 
+                        In hendrerit consectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iacul elit, 
+                        a venenatis purus nibh rutrum diam.
+                    </p>
+                    <div class="about-us__desc-features">
+                        <div class="about__us-desc-features-top d-flex align-items-center justify-content-between">
+                            <div class="about-us__desc-features-el d-flex align-items-center justify-content-between">
+                                <div class="about-us__desc-features-el-icon">
+                                    <img src="images/about-us/settings.png" alt="feature">
+                                </div>
+                                <div class="about-us__desc-features-el-desc">
+                                    <h5 class="about-us__desc-features-el-desc-title">
+                                        features one
+                                    </h5>
+                                    <div class="about-us__desc-features-el-desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-us__desc-features-el d-flex align-items-center justify-content-between">
+                                <div class="about-us__desc-features-el-icon">
+                                    <img src="images/about-us/location.png" alt="feature">
+                                </div>
+                                <div class="about-us__desc-features-el-desc">
+                                    <h5 class="about-us__desc-features-el-desc-title">
+                                        features two
+                                    </h5>
+                                    <div class="about-us__desc-features-el-desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__us-desc-features-bottom d-flex align-items-center justify-content-between">
+                            <div class="about-us__desc-features-el d-flex align-items-center justify-content-between">
+                                <div class="about-us__desc-features-el-icon">
+                                    <img src="images/about-us/heart.png" alt="feature">
+                                </div>
+                                <div class="about-us__desc-features-el-desc">
+                                    <h5 class="about-us__desc-features-el-desc-title">
+                                        features three
+                                    </h5>
+                                    <div class="about-us__desc-features-el-desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-us__desc-features-el d-flex align-items-center justify-content-between">
+                                <div class="about-us__desc-features-el-icon">
+                                    <img src="images/about-us/new.png" alt="feature">
+                                </div>
+                                <div class="about-us__desc-features-el-desc">
+                                    <h5 class="about-us__desc-features-el-desc-title">
+                                        features four
+                                    </h5>
+                                    <div class="about-us__desc-features-el-desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container--resp text-left d-none">
+                <div class="about-us__image-holder"></div>
+                <div class="section__title section__title--about-us-resp text-left">
+                    some words about us
+                </div>
+                <div class="about__us-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Pellentesque semper vel leo a conseq uat. 
+                    In hendrerit cons ectetur vestibulum. Ut pulvinar, 
+                    urna non sodales lobortis, est eros iaculelit, 
+                    a venenatis purus nibh rutrum diam Aene
+                    an in purus bibendum, hendrerit dolor quis.
+                </div>
+                <ul class="about__us-list">
+                    <li class="about__us-list-el d-flex align-items-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. In hendrerit consectetur vestibulum. 
+                    </li>
+                    <li class="about__us-list-el d-flex align-items-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat.
+                    </li>
+                    <li class="about__us-list-el d-flex align-items-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. In hendrerit.
+                    </li>
+                </ul>
+                <div class="btn btn--green btn--read-more">
+                    read more
+                </div>
+            </div>
+        </section>
+        <section class="section services">
+            <h3 class="section__title section__title--white section__title--about-us section__title--services">
+                services
+            </h3>
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="services__item text-center">
+                    <div class="services__item-img-holder">
+                        <a href="#" class="d-inline-block"><img src="images/services/service-1.png" alt="service"></a>
+                    </div>
+                    <div class="services__item-desc">
+                        <h4 class="services__item-desc-title">
+                            OUTRANK COMPETITION
+                        </h4>
+                        <p class="services__item-desc-text">
+                            Ut wisi enim ad minim veniam, 
+                            quis trud exerci tation ullamcorper scipit lobortis nisl ut aliquip ex ea comodo consequat. 
+                        </p>
+                    </div>
+                </div>
+                <div class="services__item text-center">
+                    <div class="services__item-img-holder">
+                        <a href="#" class="d-inline-block"><img src="images/services/service-2.png" alt="service"></a>
+                    </div>
+                    <div class="services__item-desc">
+                        <h4 class="services__item-desc-title">
+                            MORE WEBSITE VISITORS                        
+                        </h4>
+                        <p class="services__item-desc-text">
+                            Ut wisi enim ad minim veniam, 
+                            quis trud exerci tation ullamcorper scipit lobortis nisl ut aliquip ex ea comodo consequat. 
+                        </p>
+                    </div>
+                </div>
+                <div class="services__item text-center">
+                    <div class="services__item-img-holder">
+                        <a href="#" class="d-inline-block"><img src="images/services/service-3.png" alt="service"></a>
+                    </div>
+                    <div class="services__item-desc">
+                        <h4 class="services__item-desc-title">
+                            INCREASE SALES
+                        </h4>
+                        <p class="services__item-desc-text">
+                            Ut wisi enim ad minim veniam, 
+                            quis trud exerci tation ullamcorper scipit lobortis nisl ut aliquip ex ea comodo consequat. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section portfolio">
+            <h3 class="section__title section__title--about-us section__title--portfolio">
+                portfolio
+            </h3>
+            <div class="portfolio__top d-flex align-items-center">
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__bottom d-flex align-items-center">
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container--resp d-none">
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__item text-center">
+                    <div class="portfolio__item-hover position-relative">
+                        <div class="portfolio__item-hover-icons position-absolute">
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/Eye-Icon.png" alt="eye">
+                            </a>
+                            <a href="#" class="portfolio-item-hover-icon d-inline-block">
+                                <img src="images/portfolio/link-Icon.png" alt="link">
+                            </a>
+                        </div>
+                        <div class="portfolio__item-hover-bottom text-center position-absolute">
+                            <h5 class="portfolio__item-hover-bottom-title">
+                                A WORK OF PHOTOGRAPHY
+                            </h5>
+                            <span class="portfolio__item-hover-bottom-subtitle">
+                                Lorem ipsum dolor sit amat
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section contact">
+            <h3 class="section__title section__title--about-us section__title--contact">
+                contact
+            </h3>
+            <div class="container">
+                <div class="contact__top d-flex align-items-center justify-content-between">
+                    <div class="contact__top-item text-center">
+                        <img src="images/contact/Location.png" alt="location">
+                        <h5 class="contact__top-item-title">
+                            129 LV High Street, 
+                        </h5>
+                        <span class="contact__top-item-subtitle d-block">
+                            United States
+                        </span>
+                    </div>
+                    <div class="contact__top-item text-center">
+                        <img src="images/contact/Mail.png" alt="email">
+                        <h5 class="contact__top-item-title">
+                            +01 123-4567-8910
+                        </h5>
+                        <span class="contact__top-item-subtitle d-block">
+                            youremail.co
+                        </span>
+                    </div>
+                    <div class="contact__top-item text-center">
+                        <img src="images/contact/Support.png" alt="support">
+                        <h5 class="contact__top-item-title">
+                            Take Our support
+                        </h5>
+                        <span class="contact__top-item-subtitle d-block">
+                            Support@xy.co                        
+                        </span>
+                    </div>
+                </div>
+                <form class="contact__form">
+                    <div class="contact__form-top d-flex align-items-center justify-content-between">
+                        <input type="text" class="contact__form-input" placeholder="Name">
+                        <input type="email" class="contact__form-input" placeholder="Email">
+                    </div>
+                    <input type="text" class="contact__form-input" placeholder="Subject">
+                    <textarea class="contact__form-input contact__form-input--textarea" placeholder="Message"></textarea>
+                    <button class="btn btn--submit btn--green" type="submit">
+                        send message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer text-center">
+        <a href="#" class="d-inline-block"><img src="images/footer/Logo.png" alt="logo"></a>
+        <ul class="footer__social-links">
+            <li class="footer__social-links-el">
+                <a href="#" class="d-inline-block"><img src="images/footer/Mail.png" alt="mail"></a>
+            </li>
+            <li class="footer__social-links-el">
+                <a href="#" class="d-inline-block"><img src="images/footer/Twitter.png" alt="twitter"></a>
+            </li>
+            <li class="footer__social-links-el">
+                <a href="#" class="d-inline-block"><img src="images/footer/Facebook.png" alt="faceebok"></a>
+            </li>
+            <li class="footer__social-links-el">
+                <a href="#" class="d-inline-block"><img src="images/footer/BE.png" alt="behance"></a>
+            </li>
+            <li class="footer__social-links-el">
+                <a href="#" class="d-inline-block"><img src="images/footer/Deviantart.png" alt="Deviantart"></a>
+            </li>
+            <li class="footer__social-links-el">
+                <a href="#" class="d-inline-block"><img src="images/footer/Flickr.png" alt="flickr"></a>
+            </li>
+        </ul>
+        <span class="footer__copyrights">
+            Parry &copy; 2016. Design by Y Design Services.
+        </span>
+    </footer>
 </body>
 </html>

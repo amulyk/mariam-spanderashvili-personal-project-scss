@@ -1,3 +1,34 @@
-.header {
-    background: yellow;
+.header__top {
+    padding: 40px 25px!important;
+}
+
+.header__top-nav {
+    display: none;
+}
+
+.header__top-nav-toggle {
+    background-color: $green;
+    width: 56px;
+    height: 39px;
+    line-height: 39px;
+    display: block!important;
+}
+
+.header__bottom-slider-controls {
+    display: none!important;
+}
+
+.header__bottom-subtitle {
+    font-size: 25px;
+}
+
+.header__bottom-title {
+    font-size: 30px;
+}
+
+.header__bottom-text {
+    font-size: 9px;
+    max-width: 265px;
+    margin-left: auto;
+    margin-right: auto; 
 }
