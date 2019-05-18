@@ -34,7 +34,10 @@
 
 .header__bottom {
     height: 760px;
-    background-color: $dark-gray;
+    background-image: url(../../../images/header/waterfall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     .container {
         height: 100%;

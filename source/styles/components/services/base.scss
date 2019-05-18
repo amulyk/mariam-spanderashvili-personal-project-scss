@@ -27,3 +27,24 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.services__item-img-holder {
+    display: inline-block;
+
+    img {
+        width: 125px;
+        height: 145px;
+    }
+
+    &:hover {
+
+        img {
+            display: none;
+        }
+
+        .services__item-img-holder-hover {
+            display: block!important;
+            transition: all 0.3s ease;
+        }
+    }
+}
